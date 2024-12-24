@@ -23,11 +23,11 @@ Una aplicación para gestionar tareas con diferentes estados (Pendiente, En prog
 4. Configura el archivo .env: 
 
     DB_CONNECTION=sqlite
-    # DB_HOST=127.0.0.1
-    # DB_PORT=3306
-    # DB_DATABASE=laravel
-    # DB_USERNAME=root
-    # DB_PASSWORD=
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 5. Crea la base de datos: SQLite php artisan migrate
 
